@@ -51,7 +51,6 @@ The optimizer balances **expected return** and **portfolio risk** (variance) bas
 
 ### Installation
 ```bash
-git clone https://github.com/<your-username>/quantum-portfolio-optimizer.git
-cd quantum-portfolio-optimizer
+git clone https://github.com/Shivansh-Raj/Quantum_Portfolio_Optimizer
 pip install -r requirements.txt
 ```
