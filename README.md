@@ -54,3 +54,21 @@ The optimizer balances **expected return** and **portfolio risk** (variance) bas
 git clone https://github.com/Shivansh-Raj/Quantum_Portfolio_Optimizer
 pip install -r requirements.txt
 ```
+### Run the Project
+
+Navigate to the app folder
+```
+cd app
+```
+
+Run the main FastAPI file
+```
+uvicorn main:app --reload
+```
+
+This starts the server on http://127.0.0.1:8000.
+
+Open API docs (Swagger UI)
+```
+Go to: http://127.0.0.1:8000/docs in your browser to interact with the endpoints.
+```
